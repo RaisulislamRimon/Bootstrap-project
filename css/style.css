@@ -1,0 +1,227 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-title {
+    font-weight: bolder;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.hr-style {
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 20%;
+}
+
+/* header section starts here */
+header {
+    background-image: url('../images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner-container {
+    height: 100vh;
+}
+
+.banner-container h1 {
+    font-size: 3.5rem;
+    background-color: rgba(29, 177, 182, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Handlee', cursive;
+}
+
+.btn {
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: rgb(4, 197, 245);
+    transform: scale(1.3);
+    border: none;
+}
+
+.navbar {
+    padding: 2% 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-icon {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: teal;
+    transform: scale(1.3);
+}
+
+/* header section ends here */
+
+/* features card section starts here */
+#features {
+    padding: 5% 10%;
+    background-color: #e8ded2;
+}
+
+.featuresColumn {
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .3s;
+}
+
+.featuresColumn:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.iconStyle {
+    background: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+/* features card section ends here */
+
+/* about me section starts here */
+
+#about-me {
+    padding: 5% 10%;
+    background-color: #e8ded2;
+}
+
+#about-me div {
+    padding-top: 10px;
+}
+
+#about-me p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+
+#about-me a {
+    font-size: 0.9rem;
+    text-decoration: underline;
+    color: brown;
+}
+
+#about-me a:hover {
+    color: rgb(21, 166, 185);
+    text-decoration: none;
+}
+
+#about-me span {
+    font-weight: 700 !important;
+}
+
+.star i {
+    width: 30px;
+}
+
+
+/* about me section ends here */
+
+/* tutorials section starts here */
+
+#tutorials {
+    padding: 5% 10%;
+    background-color: #a3d2ca;
+}
+
+.card {
+    transition: .4s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+/* tutorials section ends here */
+
+/* feedback section starts here */
+
+#feedback {
+    background-color: #2c0674;
+    padding: 5% 10%;
+}
+
+.carousel-item {
+    padding: 5% 10%;
+    font-style: italic;
+    font-family: Consolas;
+    font-weight: bold;
+    font-size: large;
+}
+
+.feedback-img {
+    width: 120px;
+    height: 300px;
+}
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+/* feedback section ends here */
+
+/* contact-me section starts here */
+
+#contact {
+    padding: 5% 10%;
+    background-color: #e8ded2;
+}
+
+/* contact-me section ends here */
+
+/* footer section starts here */
+footer {
+    padding: 1% 10%;
+    background: #056676;
+}
+
+footer a{
+    margin-left: 20px;
+    color: white;
+    font-size: 1.15rem;
+}
+footer a:hover{
+    color: rgb(15, 195, 219);
+    text-decoration: none;
+}
+
+/* footer section ends here */
+
+@media (max-width: 768px){
+	.nav-link{
+		background-color: rgb(0,0,0,0.7);
+	}
+}
